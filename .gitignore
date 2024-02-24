@@ -1,0 +1,39 @@
+# Archivos de compilación
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*txt
+
+# Paquetes y directorios de dependencias
+node_modules/
+.env
+vendor/
+*.jar
+credencialesMongoDB.text
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de entorno virtual
+env/
+venv/
+
+# Archivos de configuración IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de log
+*.log
+log/
+logs/
+
+# Otros archivos y directorios
+tmp/
+temp/

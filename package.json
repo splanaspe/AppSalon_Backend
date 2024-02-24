@@ -1,0 +1,33 @@
+{
+  "name": "appsalon_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed-import": "node data/seed.js --import",
+    "seed-destroy": "node data/seed.js --destroy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splanaspe/AppSalon_Backend.git"
+  },
+  "author": "Salvador Planas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splanaspe/AppSalon_Backend/issues"
+  },
+  "homepage": "https://github.com/splanaspe/AppSalon_Backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.2.0"
+  }
+}
