@@ -141,7 +141,6 @@ export default router
     - "npm run seed-export" : "node data/seed.js --export" 
 - Reescrivimos el metodo para obtener todos los servicios: services = await Services.find()
 
-<<<<<<< HEAD
 =======
 ## Instalamos CORS
 Muy importante este paso para poder hacer peticiones desde el dominio (diferente) del frontend, esta es la configuración default
@@ -274,4 +273,3 @@ export function createTransport(host, port, user, pass) {
     return transporter
 }  
 ```
->>>>>>> 409cc03 (Trabajando en ,la autentificacion)
